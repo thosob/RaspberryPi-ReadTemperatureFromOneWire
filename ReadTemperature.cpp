@@ -1,9 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /* 
  * File:   ReadTemperature.cpp
  * Author: tsobieroy
@@ -32,7 +26,8 @@
 using namespace std;
 
 /*
- * 
+ * @brief simple function to parse temperature from one wire via c++
+ * @return write temperature string in xml to console
  */
 int main(int argc, char* argv[]) {
 
