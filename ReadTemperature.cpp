@@ -54,5 +54,8 @@ int main(int argc, char* argv[]) {
         printf("<Temperature>%f</Temperature>", ret );
         return 0;
     }
+    else{
+        cout << "Please add path to one-wire temperature file." << endl;
+    }
 }
 
